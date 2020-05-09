@@ -5,11 +5,12 @@ menu:
   About     : /about          # 关于
   Friends   : /links           # 友链
 
-  post_menu_side: left  # 默认 right
+
+post_menu_side: right  # 默认 right
 
 
 favicon:
-  small: /images/favicon-z-16x16.ico
-  medium: /images/favicon-z-32x32.ico
-  apple_touch_icon: /images/favicon-z-32x32.ico
-  safari_pinned_tab: /images/favicon-z-32x32.ico
+  small: null
+  medium: null
+  apple_touch_icon: null
+  safari_pinned_tab: null
