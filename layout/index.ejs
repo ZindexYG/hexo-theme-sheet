@@ -19,7 +19,7 @@
           <%- strip_html(post.excerpt) %>
         </div>
         <div class="post-meta">
-          <span class="disqus-comment-count" data-disqus-identifier="<%- post.uuid %>">0 Comments</span>
+          <span class="disqus-comment-count" data-disqus-identifier="<%- post.uuid %>"></span>
           <span class="post-time">
             <%- date(post.date, "YYYY-MM-DD HH:mm") %>
           </span>
@@ -34,6 +34,7 @@
       <%- paginator({
         prev_text: __('<div class="paginator-item"><i class="fa fa-angle-left"></i></div>'),
         next_text: __('<div class="paginator-item"><i class="fa fa-angle-right"></i></div>'),
+        escape: false
       }) %>
     </nav>
     <% } %>

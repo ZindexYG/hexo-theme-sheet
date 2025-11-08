@@ -2,7 +2,7 @@
 menu:
   Home      : /                # 主页
   # Document: /document/       # 文档
-  About     : /about          # 关于
+  About     : /about           # 关于
   Friends   : /links           # 友链
 
 
